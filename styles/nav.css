@@ -1,0 +1,36 @@
+.nav {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  top: 0;
+  padding: 16px 112px 16.5px;
+  background-color: #fff;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #14171f;
+  text-decoration: none;
+  transition: 200ms;
+}
+.nav-link:hover {
+  color: #f9995d;
+}

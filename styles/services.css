@@ -1,0 +1,42 @@
+.services {
+  background-color: #f6f8f7;
+  padding-top: 44px;
+}
+
+/* Primary Card */
+.service-card {
+  width: 271px;
+  height: 181px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 36px 98px 48px 0;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 37px -2px rgba(17, 24, 39, 0.05);
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 48px;
+}
+
+.service-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2947a9;
+}
+
+/* Secondary Card */
+.service-card.secondary-card {
+  background-color: #2947a9;
+}
+
+.service-card.secondary-card h4 {
+  color: #fff;
+}

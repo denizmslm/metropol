@@ -1,0 +1,30 @@
+.banner {
+  background-image: url("../assets/contact.png");
+  padding: 100px 0;
+}
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30;
+}
+.banner-text-box h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+.banner-text-box span {
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+}
+.banner-text-box a {
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+}

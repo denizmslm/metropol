@@ -1,0 +1,43 @@
+.about-us {
+  padding: 74px 0 202px 0;
+}
+.about-us-card {
+  padding: 50px 60px 60px 40px;
+  border-radius: 2px;
+  box-shadow: 0 8px 8px -4px rgba(17, 24, 39, 0.04),
+    0 20px 24px -4px rgba(17, 24, 39, 0.1);
+  background-color: #2947a9;
+}
+.about-us-img {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 80%;
+  left: 0;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-us-card span {
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.about-us-card p {
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  margin-top: 37px;
+  margin-bottom: 74px;
+}
